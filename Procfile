@@ -1,0 +1,1 @@
+web: java $JAVA_OPTS --spring.active.profiles=heroku --server.port=$PORT --spring.data.mongodb.host=$MONGODB_HOST --spring.data.mongodb.port=$MONGODB_PORT --spring.data.mongodb.database=$MONGODB_DATABASE --spring.data.mongodb.username=$MONGODB_USERNAME --spring.data.mongodb.password=$MONGODB_PASSWORD -jar target/juleluka-api-2017.0.1-SNAPSHOT.jar

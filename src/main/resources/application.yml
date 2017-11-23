@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+
+---
+
+spring:
+  profiles: dev
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: juleluka
+
+debug: true
+
+server:
+  port: 5566
+
+auth0:
+  issuer: https://juleluka.eu.auth0.com/
+  apiAudience: https://api.juleluka.no
